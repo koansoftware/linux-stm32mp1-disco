@@ -1,0 +1,93 @@
+Applied all the official ST32 patches
+----------------------------------------------
+$ git am ../da-yocto-4.19/4.19.9/*
+
+Applying: ARM: stm32mp1-r0-rc1: MACHINE
+Applying: ARM: stm32mp1-r0-rc1: CLOCK
+Applying: ARM: stm32mp1-r0-rc1: DMA
+Applying: ARM: stm32mp1-r0-rc1: I2C
+Applying: ARM: stm32mp1-r0-rc1: IIO
+Applying: ARM: stm32mp1-r0-rc1: IRQ Mailbox
+Applying: ARM: stm32mp1-r0-rc1: INPUT TTY
+.git/rebase-apply/patch:46: new blank line at EOF.
++
+warning: 1 line adds whitespace errors.
+Applying: ARM: stm32mp1-r0-rc1: MFD
+Applying: ARM: stm32mp1-r0-rc1: MMC MTD
+Applying: ARM: stm32mp1-r0-rc1: ETH
+Applying: ARM: stm32mp1-r0-rc1: NVMEM
+Applying: ARM: stm32mp1-r0-rc1: PINCTRL PWM RESET RTC
+Applying: ARM: stm32mp1-r0-rc1: REMOTEPROC RPMSG
+.git/rebase-apply/patch:2168: new blank line at EOF.
++
+warning: 1 line adds whitespace errors.
+Applying: ARM: stm32mp1-r0-rc1: WATCHDOG
+Applying: ARM: stm32mp1-r0-rc1: MISC
+Applying: ARM: stm32mp1-r0-rc1: DEVICETREE
+.git/rebase-apply/patch:536: new blank line at EOF.
++
+.git/rebase-apply/patch:2697: new blank line at EOF.
++
+.git/rebase-apply/patch:3713: new blank line at EOF.
++ 
+warning: 3 lines add whitespace errors.
+Applying: ARM: stm32mp1-r0-rc1: DEFCONFIG
+.git/rebase-apply/patch:78: new blank line at EOF.
++ 
+warning: 1 line adds whitespace errors.
+Applying: ARM-stm32mp1-r0-rc2-DRM-KMS
+Applying: ARM-stm32mp1-r0-rc2-SOUND
+Applying: ARM-stm32mp1-r0-rc2-MEDIA
+Applying: ARM-stm32mp1-r0-rc2-PINCTRL
+Applying: ARM-stm32mp1-r0-rc2-MFD-IRQ
+Applying: ARM-stm32mp1-r0-rc2-USB
+Applying: ARM-stm32mp1-r0-rc2-THERMAL
+Applying: ARM-stm32mp1-r0-rc2-REMOTEPROC
+Applying: ARM-stm32mp1-r0-rc2-NET
+Applying: ARM-stm32mp1-r0-rc2-HWCLK-SPI
+Applying: ARM-stm32mp1-r0-rc2-MMC
+Applying: ARM-stm32mp1-r0-rc2-HWSPINLOCK-IIO-I2C
+Applying: ARM-stm32mp1-r0-rc2-DEVICETREE
+Applying: ARM-stm32mp1-r0-rc2-DEFCONFIG
+Applying: ARM: stm32mp1-r0-rc3: DMA
+Applying: ARM: stm32mp1-r0-rc3: DISPLAY
+Applying: ARM: stm32mp1-r0-rc3: ETH
+Applying: ARM: stm32mp1-r0-rc3: IIO
+Applying: ARM: stm32mp1-r0-rc3: INPUT TTY
+Applying: ARM: stm32mp1-r0-rc3: IRQ Mailbox
+Applying: ARM: stm32mp1-r0-rc3: MEDIA
+Applying: ARM: stm32mp1-r0-rc3: MMC MTD
+Applying: ARM: stm32mp1-r0-rc3: PINCTRL PWM RESET RTC
+Applying: ARM: stm32mp1-r0-rc3: REMOTEPROC RPMSG
+Applying: ARM: stm32mp1-r0-rc3: SOUND
+Applying: ARM: stm32mp1-r0-rc3: MISC
+Applying: ARM: stm32mp1-r0-rc3: DEVICETREE
+.git/rebase-apply/patch:880: new blank line at EOF.
++ 
+warning: 1 line adds whitespace errors.
+Applying: ARM: stm32mp1-r0-rc3: DEFCONFIG
+Applying: ARM: stm32mp1-r0-rc4: MMC MTD
+Applying: ARM: stm32mp1-r0-rc4: PINCTRL PWM RESET RTC
+Applying: ARM: stm32mp1-r0-rc4: REMOTEPROC RPMSG
+Applying: ARM: stm32mp1-r0-rc4: SOUND
+Applying: ARM: stm32mp1-r0-rc4: USB
+Applying: ARM: stm32mp1-r0-rc4: DEVICETREE
+Applying: ARM: stm32mp1-r0-rc4: DEFCONFIG
+Applying: ARM stm32mp1 r0 rc4 hotfix-w903.1 DRIVERS
+.git/rebase-apply/patch:1037: space before tab in indent.
+        if (stusb_get_vconn(chip))
+.git/rebase-apply/patch:73: new blank line at EOF.
++ 
+warning: 2 lines add whitespace errors.
+Applying: ARM stm32mp1 r0 rc4 hotfix-w903.1 DEVICETREE
+Applying: ARM stm32mp1 r0 rc4 hotfix-w903.1 DEFCONFIG
+Applying: ARM stm32mp1 r0 rc4 hotfix w903.3 DRIVERS
+Applying: ARM stm32mp1 r0 rc4 hotfix w903.3 DEVICETREE
+Applying: ARM stm32mp1 r0 rc4 hotfix w903.3 DEFCONFIG
+Applying: ARM stm32mp1 r0 rc4 hotfix w904.3 DRIVERS
+Applying: ARM stm32mp1 r0 rc4 hotfix w904.3 DEVICETREE
+Applying: ARM stm32mp1 r0 rc4 hotfix w904.5 DRIVERS
+Applying: ARM stm32mp1 r0 rc4 hotfix w904.5 DEVICETREE
+Applying: ARM stm32mp1 r0 rc4 hotfix w905.2 DRIVERS
+Applying: ARM stm32mp1 r0 rc4 hotfix w905.2 DEVICETREE
+
